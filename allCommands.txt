@@ -1,0 +1,50 @@
+git restore --staged
+git restore 
+git config --global user.name
+git config --global user.email
+git config --list git branch 
+git branch branch-name 
+Git config  
+Git init  
+Git clone  
+Git status 
+git status -s
+git status -long
+git status -b 
+Git add 
+git add -n
+git add -f 
+
+Git reset  
+Git diff 
+git diff --staged
+git diff branch1...branch2 
+Git commit 
+git commit -a
+git commit -p 
+Git branch
+Git checkout  
+Git merge  
+Git log  
+Git show  
+Git rm [file]  
+Git mv [existing-path] [new-path] 
+Git log  
+Git remote add  
+
+Git fetch  
+Git push  
+Git pull  
+Git rebase  
+Git reset  
+Git stash 
+Git stash list 
+Git stash pop 
+Git stash drop  
+git notes
+git notes add
+git notes copy
+git notes edit 
+git clean -n
+git clean -f
+git clean -i
