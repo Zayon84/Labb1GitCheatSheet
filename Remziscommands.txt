@@ -1,0 +1,50 @@
+<h2>Git Commands</h2>
+
+
+<h2>git restore--staged</h2>
+<p>Tar bort filer från staging men låter förändringar som gjort vara ifred</p>
+
+<h2>git restore</h2>
+<p>Hämtar tillbaka gamla filer eller kastar ej-inlagda filer i det lokala förrådet </p>
+
+<h2>git config--global user.name</h2>
+<p>används för att sätta ett fast användarnamn</p>
+
+<h2>git config--global user.email</h2>
+<p>används för att sätta sin email</p>
+
+<h2>git config --list</h2>
+<p>Hämtar alla inställningar git kan hitta vid det tillfället</p>
+
+<h2>git Branch</h2>
+<p>Lägger upp, skapar eller tar bort grenar i projektet</p>
+
+<h2>git config</h2>
+<p>Lägger in lokala och globala inställningar på projektet</p>
+
+<h2>git init</h2>
+<p>skapar en nytt tomt git repository eller återinitierar en redan existerande</p>
+
+<h2>git clone</h2>
+<p>kopierar och skapar en ny kopia av ett redan existerande repository</p>
+
+<h2>git status</h2>
+<p>visar vad för värden filerna har vid det tillfället</p>
+
+<h2>git status-s</h2>
+<p>visar mindre värden som filen har vid det tillfället</p>
+
+<h2>git status-long</h2>
+<p>visar värden som filen har vid det tillfället, visas som standard</p>
+
+<h2>git status-b</h2>
+<p>visar värden på grenen och värden på filen förkortat </p>
+
+<h2>git add</h2>
+<p>lägger till innehållet i filen till indexet</p>
+
+<h2>git add-n</h2>
+<p>visar endast filen/filer ifall de finns med och/eller blir ignorerade</p>
+
+<h2>git add-f</h2>
+<p>tillåter att filen läggs in även ifall den egentligen skulle bli ignorerad</p>
