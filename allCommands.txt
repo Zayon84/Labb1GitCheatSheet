@@ -2,8 +2,8 @@ git restore --staged
 git restore 
 git config --global user.name
 git config --global user.email
-git config --list git branch 
-git branch branch-name 
+git config --list 
+git branch
 Git config  
 Git init  
 Git clone  
@@ -15,21 +15,18 @@ Git add 
 git add -n
 git add -f 
 
-Git reset  
 Git diff 
 git diff --staged
 git diff branch1...branch2 
 Git commit 
 git commit -a
 git commit -p 
-Git branch
 Git checkout  
 Git merge  
 Git log  
 Git show  
 Git rm [file]  
 Git mv [existing-path] [new-path] 
-Git log  
 Git remote add  
 
 Git fetch  
