@@ -1,0 +1,47 @@
+    <h1>Git Commands</h1>
+
+    <h2>git reset</h2>
+    <p>Återställer repot till en föregående commit. För att ange vilken commit man vill tillbaka till så skriver man dessutom commithashet.</p>
+
+    <h2>git diff</h2>
+    <p>Visar ändringar mellan två inputs. Inputs man kan jämföra är t.ex filer, branches, commits osv.</p>
+
+    <h2>git diff --staged</h2>
+    <p>Samma som --cached. Jämför ändringar i staging area med vad som är i local repo. (Med staging area menas filer/filändringar som är redo att commitas)</p>
+
+    <h2>git diff branch1...branch2</h2>
+    <p>Jämför ändringar mellan 2 olika branches från och med den sista gemensamma branch. Dvs. om branch1 var main/master och branch2 skapades från den, 
+    så hade man bara fått upp alla skillnader i commits från och med när branch2 skapades tills dess senaste commit.</p>
+    
+    <h2>git commit</h2>
+    <p>Pushar alla våra ändringar från staging area till vårt repo i form av en commit. En commit är loggad så att alla ändringar i repot kan spåras.</p>
+    
+    <h2>git commit -a</h2>
+    <p>Samma som --all. Tar alla modifierade/raderade filer automatiskt till staging area så att de kan commitas. Nya filer som inte har lagts till i staging area kommer inte påverkas.</p>
+    
+    <h2>git commit -p</h2>
+    <p>Öppnar ett gränssnitt där du kan manuellt välja vad du vill göra med enskilda ändringar. Detta kommando kommer att gå igenom de ändringar du har gjort tills du har gått igenom dom alla.</p>
+    
+    <h2>git branch</h2>
+    <p>Visar alla tillgängliga branches samt vilken branch du är nuvarande checkad i.</p>
+    
+    <h2>git checkout</h2>
+    <p>Låter dig byta mellan tillgängliga branches genom att ange branchens namn efteråt. Detta låter dig utföra kommandon som utgår från att du är i en specific branch.</p>
+    
+    <h2>git merge</h2>
+    <p>Slår ihop två olika branches till en unifierad commit. Ifall konflikter i filer sker behöver användaren ingripa.</p>
+    
+    <h2>git log</h2>
+    <p>Tar fram repots olika commits samt extra information om commitsen, som t.ex commithashet som kan komma till nytta i bl.a "git reset".</p>
+    
+    <h2>git show</h2>
+    <p>Visar expanderade detaljer till git objekt som t.ex blobs, trees, taggar och commits. Kommandot har enskilt beteende beroende på vilket typ av objekt man tar in.</p>
+    
+    <h2>git rm [file]</h2>
+    <p>Tar bort en fil från både staging area och working directory.</p>
+    
+    <h2>git mv [existing-path] [new-path]</h2>
+    <p>Effektivt raderar en fil från existing-path och skapar en fil med samma innehåll i new-path. Ifall filens namn ändras mellan existing-path och new-path så ändras namnet på filen också.</p>
+    
+    <h2>git remote add</h2>
+    <p>Skapar en remote repository till din lokala repo. Remote repo innebär att repot sitter på en server och att andra utvecklare kan komma åt och koda i den.</p>
